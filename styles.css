@@ -1,3 +1,14 @@
-img{
-    align-self: center;
+p{
+    font-size: 13px;;
+}
+
+#google-logo{
+    height: 92px;
+    width: 272px;
+}
+
+#search-field{
+    height: 39px;
+    width: 460px;
+    border-radius: 20px;
 }
