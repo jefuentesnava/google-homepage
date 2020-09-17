@@ -1,5 +1,6 @@
 p{
     font-size: 13px;;
+    font-family: Arial, sans-serif
 }
 
 #google-logo{
@@ -7,8 +8,46 @@ p{
     width: 272px;
 }
 
+#google-microphone-logo
+{
+    height: 24px;
+    width: 24px;
+}
+
+#google-search-icon{
+    height: 14.58px;
+    width: 14.58px;
+}
+
 #search-field{
-    height: 39px;
-    width: 460px;
+    height: 34px;
+    width: 387px;
+    border: 0px;
+    outline-width: 0px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+}
+
+li{
+    display: inline;
+}
+
+.center{
+    margin: auto;
+    padding: 2px;
+    display: inline-block;
+    border: 2px solid lightgray;
     border-radius: 20px;
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(242, 242, 242);
+    font-size: 14px;
 }
