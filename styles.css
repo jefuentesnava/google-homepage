@@ -85,7 +85,7 @@ body{
     outline-width: 0px;
 }
 
-#google-microphone-logo
+.google-microphone-logo
 {
     height: 22px;
     width: 16px;
@@ -97,7 +97,15 @@ body{
     width: 14.58px;
 } 
 
+/**Main Buttons**/
+.main-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/**
 .footer{
     background-color: rgb(242, 242, 242);
     font-size: 14px;
-}
+}**/
