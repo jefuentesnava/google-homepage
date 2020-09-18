@@ -38,7 +38,7 @@ body{
     height: 28px;
     width: 44px;
     padding-left: 12px;
-    padding-top: 10px;
+    padding-top: 8px;
     padding-right: 12px;
     padding-bottom: 0px;
     margin-top: 10px;
@@ -57,11 +57,32 @@ body{
     margin-right: auto;
 }
 
-/**
+/**Seach Field**/
+.search{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    text-align: center;
+    width: 450px;
+    border: 2px solid lightgray;
+    border-radius: 20px;
+}
+
+#search-field{
+    font-size: 16px;
+    height: 34px;
+    width: 387px;
+    padding-left: 20px;
+    border: 0px;
+    outline-width: 0px;
+}
+
 #google-microphone-logo
 {
-    height: 24px;
-    width: 24px;
+    height: 22px;
+    width: 16px;
+    padding-top: 10px;
 }
 
 #google-search-icon{
@@ -69,23 +90,7 @@ body{
     width: 14.58px;
 } 
 
-#search-field{
-    height: 34px;
-    width: 387px;
-    border: 0px;
-    outline-width: 0px;
-}
-
-.center{
-    margin: auto;
-    padding: 2px;
-    display: inline-block;
-    border: 2px solid lightgray;
-    border-radius: 20px;
-    text-align: center;
-}
-
-footer{
+.footer{
     background-color: rgb(242, 242, 242);
     font-size: 14px;
 }**/
