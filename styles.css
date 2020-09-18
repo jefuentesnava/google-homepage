@@ -14,7 +14,7 @@ body{
     float: left;
     color: black;
     text-align: center;
-    padding-left: 15px;
+    padding-left: 20px;
     padding-top: 20px;
     text-decoration: none;
 }
@@ -28,8 +28,11 @@ body{
     padding-right: 30px;
 }
 
-#nav-images{
+#nav-apps-icon{
+    height: 25px;
+    width: 25px;
     padding-right: 15px;
+    margin-top: -5px;
 }
 
 #sign-in{
@@ -44,14 +47,14 @@ body{
     margin-top: 10px;
     border-radius: 2px;
     font-weight: bold;
+    text-decoration: none;
 }
-
 
 /**Google Logo**/
 .google-logo{
     height: 92px;
     width: 272px;
-    margin-top: 198px;
+    margin-top: 109px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -66,7 +69,7 @@ body{
     text-align: center;
     width: 450px;
     border: 2px solid lightgray;
-    border-radius: 20px;
+    border-radius: 25px;
 }
 
 #search-field{
@@ -93,4 +96,4 @@ body{
 .footer{
     background-color: rgb(242, 242, 242);
     font-size: 14px;
-}**/
+}
