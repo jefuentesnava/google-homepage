@@ -47,15 +47,17 @@ body{
 }
 
 
-/**
-.google-center {
+/**Google Logo**/
+.google-logo{
     height: 92px;
     width: 272px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
+    margin-top: 198px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+/**
 #google-microphone-logo
 {
     height: 24px;
