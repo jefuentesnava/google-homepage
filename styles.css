@@ -73,7 +73,7 @@ body{
 }
 
 .search:hover{
-    border-width: 4px;
+    box-shadow: 0 0 0 6px rgb(242, 242, 242);
 }
 
 #search-field{
@@ -100,8 +100,27 @@ body{
 /**Main Buttons**/
 .main-buttons{
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    text-align: center;
+}
+
+.flex-children{
+    background-color: rgb(242, 242, 242);
+    color: lightslategrey;
+    font-size: 14px;
+    padding-top: 10px;
+    margin: 8px;
+    height: 25px;
+    width: 127px;
+    border-radius: 5px;
+
+}
+
+.flex-children:hover{
+    color: black;
+    box-shadow: 0 0 0 1px lightgray;
 }
 
 /**
